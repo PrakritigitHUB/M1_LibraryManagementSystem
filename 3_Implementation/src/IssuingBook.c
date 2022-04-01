@@ -1,4 +1,6 @@
 #include <Library_Management.h>
+#include <conio.h>
+#include <stdio.h>
 
 boolean issueBook(int id)
 {
@@ -12,8 +14,9 @@ boolean issueBook(int id)
     }
     else
     {
-
-        scanf("%19s student name", name1);
+        fflush(stdin);
+        printf("Enter student name: ");
+        gets(name1);
         book *book_to_find = (book *)malloc(sizeof(book));
         while (fread(book_to_find, sizeof(book), 1, fp))
         {
