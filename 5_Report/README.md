@@ -37,7 +37,7 @@
 * Furthermore, it is likely that the future of library systems will consist of a mixture of open and closed systems as well as local and shared services.
 * With an increasing advent towards closed platforms like Facebook and proprietary ecosystems, libraries can be used to navigate different platforms and ecosystems.
 
-### Threats
+## Threats
 * Libraries send and retrieve data from databases for better management system but some libraries don’t have the right data encryption practices. 
 * This can often lead to losing of data and info.
 * Sometimes, the data can be easily accessible by the hackers.
@@ -65,14 +65,20 @@
 |LLRQ5|VIEW BOOKS|IMPLEMENTED|
 
 
-# STRUCTURAL IMAGE
+# DESIGN
+
+## STRUCTURAL IMAGE
 * ![Class Diagram1]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/case%20diag%202.png
 * ![Case Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/case%20diag.png
 
 
-# BEHAVIORAL IMAGE
+## BEHAVIORAL IMAGE
 * ![Flow Chart]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/State%20diagram.png
 * ![Sequence Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/Sequence%20diagram.jpg
+
+
+
+
 
 
 
