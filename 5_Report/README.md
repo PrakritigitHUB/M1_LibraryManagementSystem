@@ -66,7 +66,13 @@
 
 
 # STRUCTURAL IMAGE
-![Case Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/case%20diag%202.png
+![Class Diagram1]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/case%20diag%202.png
+![Case Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/case%20diag.png
+
+
+# BEHAVIORAL IMAGE
+![Flow Chart]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/State%20diagram.png
+![Sequence Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/Sequence%20diagram.jpg
 
 
 
