@@ -82,7 +82,35 @@
 * The code for the Library Management System is written in C language so that it will be easy for the user to understand its content and meaning,that is to make the system user-friendly.
 * The code is written in multiple .c files and .h files, so that ,the code is broken into pieces which makes it easy to understand.
 * Here,functions,pointers,file handling concepts,etc. are also used.
-* The code is then  
+* The code is then build, run and implemented and then it is build into makefile ,so that, it can be run on any OS ,for example,Windows and Linux.
+* Even if we write the code in one OS, converting it into makefile makes it suitable to work on any OS like Linux. 
+* Unit testing and code analysis is also performed.
+
+
+
+# TEST PLAN AND OUTPUT
+
+## High level test plan
+
+|TEST ID| DESCRIPTION| EXPECTED I/P|
+| :-----|:-----------|:------------|
+|HL01|ADD BOOKS|CATEGORY,BOOKNAME,AUTHOR,QUANTITY,PRICE,RACKNO|
+|HL02|DELETE BOOKS|CATEGORY,ID|
+|HL03|SEARCH BOOK|CATEGORY, ID|
+|HL04|ISSUE BOOK|CATEGORY,ID|
+|HL05|VIEW BOOK|CATEGORY,ID|
+
+
+## Low level test plan
+
+|TESTID| DESCRIPTION| EXPECTED I\P|
+|:-----|:-----------|:------------|
+|LL01|ADDIND DETAILS OF NEW BOOK|CATEGORY,BOOKNAME,AUTHOR,QUANTITY,PRICE,RACKNO|
+|LL02|DELETING BOOK BY ID&CATEGORY|CATEGORY,ID|
+|LL03|SEARCH FOR THE BOOK BY ENTERING CATEGORY,ID|CATEGORY,ID|
+|LL04|ISSUING BOOK BASED ON ID|CATEGORY,ID|
+|LL05|VIEW BOOK BY ENTERING CATEGORY,ID|CATEGORY,ID|
+
 
 
 
