@@ -65,5 +65,16 @@
 |LLRQ5|VIEW BOOKS|IMPLEMENTED|
 
 
-# STRUCTURAL IMAGE
+# DESIGN
+
+## STRUCTURAL IMAGE
 ![Case Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/case%20diag%202.png
+![Class Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/class%20diagram.png
+
+
+## BEHAVIORAL IMAGE
+* ![State Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/State%20diagram.png
+* ![Sequence Daigram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/Sequence%20diagram.jpg
+
+
+
