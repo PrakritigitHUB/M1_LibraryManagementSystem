@@ -8,7 +8,7 @@
 * return books
 
 
-## BENEFITS
+## Benefits
 
 * Saves Time and Cost.
 * Secure and Reliable.
@@ -44,7 +44,7 @@
 
 
 
-## HIGH LEVEL REQUIREMENTS
+## High Level Requirements
 
 |ID|DESCRIPTION|STATUS|
 |:--|:----------|:-----|
@@ -54,7 +54,7 @@
 |HLRQ4|CODE ANALYSIS|IMPLEMENTED|
 |HLRQ5|CODE DOCUMENTATION|IMPLEMENTED|
 
-## LOW LEVEL REQUIREMENTS
+## Low Level Requirements
 
 |ID|DESCRIPTION|STATUS|
 |:--|:----------|:-----|
