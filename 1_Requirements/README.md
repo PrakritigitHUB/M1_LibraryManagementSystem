@@ -14,19 +14,19 @@
 
 ## OBJECTIVES
 
-a) To build a system that can receive input and generate output automatically in an easy way and short time.
-b) To build a management system that is able to monitor and manage all library operations efficiently.
-c) Give an opportunity to librarians to reduce mistakes which happen during manual handling.
-d) To maintain security.
-e) To enter and preserve details of the various issues and keep a track on their returns.
+* To build a system that can receive input and generate output automatically in an easy way and short time.
+* To build a management system that is able to monitor and manage all library operations efficiently.
+* Give an opportunity to librarians to reduce mistakes which happen during manual handling.
+* To maintain security.
+* To enter and preserve details of the various issues and keep a track on their returns.
 
 ## BENEFITS:
 
-a) Saves Time and Cost.
-b) Secure and Reliable.
-c) Record Maintenance.
-d) Increases Efficiency.
-e) Simple and Easy to Use.
+* Saves Time and Cost.
+* Secure and Reliable.
+* Record Maintenance.
+* Increases Efficiency.
+* Simple and Easy to Use.
 
 ## 4W'S and 1H
 
@@ -49,17 +49,17 @@ This project is implemented for issuing books, retunrning on time, or renewal pu
 
 ### Strengths
 
-a) Simple & Easy to use.
-b) Increased Library management.
-c) Highly Secure, Scalable & Reliable. 
-d) Mobile Access.
+* Simple & Easy to use.
+* Increased Library management.
+* Highly Secure, Scalable & Reliable. 
+* Mobile Access.
 
 ### Weakness
 
-a) The data stored is prone to cyber attacks like hacking.
-b) Costly and Expensive.
-c) Require high-speed internet connectivity.
-d) Risk of computer virus.
+* The data stored is prone to cyber attacks like hacking.
+* Costly and Expensive.
+* Require high-speed internet connectivity.
+* Risk of computer virus.
 
 ## Opportunities
 * The Library Management System can be used outward in spaces which it didn’t inhabit before, such as reading lists repositories, learning systems, research data management,etc.
@@ -85,8 +85,8 @@ d) Risk of computer virus.
 
 |ID|DESCRIPTION|STATUS|
 |:--|:----------|:-----|
-|LLRQ1|ADD BOOKS|IMPLEMENTED|
-|LLRQ2|DELETE BOOKS|IMPLEMENTED|
-|LLRQ3|SEARCH BOOKS|IMPLEMENTED|
-|LLRQ4|ISSUE BOOKS|IMPLEMENTED|
+|LLRQ1|SEARCH BOOKS|IMPLEMENTED|
+|LLRQ2|ADD BOOKS|IMPLEMENTED|
+|LLRQ3|ISSUE BOOKS|IMPLEMENTED|
+|LLRQ4|DELETE BOOKS|IMPLEMENTED|
 |LLRQ5|VIEW BOOKS|IMPLEMENTED|
