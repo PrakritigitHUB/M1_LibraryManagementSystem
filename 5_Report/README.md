@@ -78,3 +78,7 @@
 
 
 
+# CODE IMPLEMENTATION
+* The code for Library Management System is written using C language, so that it is easy to be understood by the users,i.e. it becomes user-friendly.
+* This code consists of functions,pointers,etc. and also the file handling concept is used here.
+* The entire code is then written in the format of 
