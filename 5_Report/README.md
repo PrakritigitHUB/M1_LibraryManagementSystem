@@ -1,7 +1,7 @@
 # LIBRARY MANAGEMENT SYSTEM
 
-* The Library management System is a project that manages and stores books data electronically ,monitors and controls the transactions in a library. 
-* The project Library Management System is developed using C, which mainly focuses on basic operations in a library like :
+* The Library management System is a project that manages and stores books data electronically ,monitors and controls the transactions in a Library. 
+* The project Library Management System is developed using C, which mainly focuses on basic operations in a Library like :
 * adding new books 
 * updating new information 
 * searching books 
@@ -34,7 +34,7 @@
 
 ## Opportunities
 * The Library Management System can be used outward in spaces which it didn’t inhabit before, such as reading lists repositories, learning systems, research data management,etc.
-* Furthermore, it is likely that the future of library systems will consist of a mixture of open and closed systems as well as local and shared services.
+* Furthermore, it is likely that the future of Library systems will consist of a mixture of open and closed systems as well as local and shared services.
 * With an increasing advent towards closed platforms like Facebook and proprietary ecosystems, libraries can be used to navigate different platforms and ecosystems.
 
 ## Threats
