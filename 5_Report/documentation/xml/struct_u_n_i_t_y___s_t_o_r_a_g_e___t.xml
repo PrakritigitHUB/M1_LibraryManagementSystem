@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t" kind="struct" language="C++" prot="public">
+    <compoundname>UNITY_STORAGE_T</compoundname>
+    <includes refid="unity__internals_8h" local="no">unity_internals.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a190c9e7550689c6dceedff539e650336" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* TestFile</definition>
+        <argsstring></argsstring>
+        <name>TestFile</name>
+        <qualifiedname>UNITY_STORAGE_T::TestFile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="458" column="16" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a6779e1e7dc5d26835d5ca7009242e77c" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* CurrentTestName</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestName</name>
+        <qualifiedname>UNITY_STORAGE_T::CurrentTestName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="459" column="16" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a83cef77fb47897cfe6c4dba18d9f36c0" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* CurrentDetail1</definition>
+        <argsstring></argsstring>
+        <name>CurrentDetail1</name>
+        <qualifiedname>UNITY_STORAGE_T::CurrentDetail1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="461" column="16" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a46f31dad8da75fe0c1ece891fbb3208b" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* CurrentDetail2</definition>
+        <argsstring></argsstring>
+        <name>CurrentDetail2</name>
+        <qualifiedname>UNITY_STORAGE_T::CurrentDetail2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="462" column="16" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1af263a120c12a489e9310ef9f36444128" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1a5c76dbcaafb6db2a52336cf5d4835290" kindref="member">UNITY_LINE_TYPE</ref></type>
+        <definition>UNITY_LINE_TYPE CurrentTestLineNumber</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestLineNumber</name>
+        <qualifiedname>UNITY_STORAGE_T::CurrentTestLineNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="464" column="21" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a82127e77cd34e1a1c2b0281e3597d5ba" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1ab5186738706785ae0189b382e45911d9" kindref="member">UNITY_COUNTER_TYPE</ref></type>
+        <definition>UNITY_COUNTER_TYPE NumberOfTests</definition>
+        <argsstring></argsstring>
+        <name>NumberOfTests</name>
+        <qualifiedname>UNITY_STORAGE_T::NumberOfTests</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="465" column="24" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a09833b8f72da6d7982f37ebc33111252" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1ab5186738706785ae0189b382e45911d9" kindref="member">UNITY_COUNTER_TYPE</ref></type>
+        <definition>UNITY_COUNTER_TYPE TestFailures</definition>
+        <argsstring></argsstring>
+        <name>TestFailures</name>
+        <qualifiedname>UNITY_STORAGE_T::TestFailures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="466" column="24" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a4fd439067fb0c1a82a5219077a513cda" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1ab5186738706785ae0189b382e45911d9" kindref="member">UNITY_COUNTER_TYPE</ref></type>
+        <definition>UNITY_COUNTER_TYPE TestIgnores</definition>
+        <argsstring></argsstring>
+        <name>TestIgnores</name>
+        <qualifiedname>UNITY_STORAGE_T::TestIgnores</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="467" column="24" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a60446b592f7989b0f639da4132032a43" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1ab5186738706785ae0189b382e45911d9" kindref="member">UNITY_COUNTER_TYPE</ref></type>
+        <definition>UNITY_COUNTER_TYPE CurrentTestFailed</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestFailed</name>
+        <qualifiedname>UNITY_STORAGE_T::CurrentTestFailed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="468" column="24" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1ad69a0f6ea7ca97f43b963c8218eca9d6" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1ab5186738706785ae0189b382e45911d9" kindref="member">UNITY_COUNTER_TYPE</ref></type>
+        <definition>UNITY_COUNTER_TYPE CurrentTestIgnored</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestIgnored</name>
+        <qualifiedname>UNITY_STORAGE_T::CurrentTestIgnored</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="469" column="24" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1add1ad6305e99da2ddf841e32dfbd8bd5" prot="public" static="no" mutable="no">
+        <type>jmp_buf</type>
+        <definition>jmp_buf AbortFrame</definition>
+        <argsstring></argsstring>
+        <name>AbortFrame</name>
+        <qualifiedname>UNITY_STORAGE_T::AbortFrame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="475" column="13" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" line="456" column="1" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/unity/unity_internals.h" bodystart="457" bodyend="477"/>
+    <listofallmembers>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1add1ad6305e99da2ddf841e32dfbd8bd5" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>AbortFrame</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a83cef77fb47897cfe6c4dba18d9f36c0" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentDetail1</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a46f31dad8da75fe0c1ece891fbb3208b" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentDetail2</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a60446b592f7989b0f639da4132032a43" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentTestFailed</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1ad69a0f6ea7ca97f43b963c8218eca9d6" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentTestIgnored</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1af263a120c12a489e9310ef9f36444128" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentTestLineNumber</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a6779e1e7dc5d26835d5ca7009242e77c" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentTestName</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a82127e77cd34e1a1c2b0281e3597d5ba" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>NumberOfTests</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a09833b8f72da6d7982f37ebc33111252" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>TestFailures</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a190c9e7550689c6dceedff539e650336" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>TestFile</name></member>
+      <member refid="struct_u_n_i_t_y___s_t_o_r_a_g_e___t_1a4fd439067fb0c1a82a5219077a513cda" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>TestIgnores</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

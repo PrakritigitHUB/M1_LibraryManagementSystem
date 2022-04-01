@@ -1,0 +1,37 @@
+\hypertarget{_library___management_8h_source}{}\doxysection{Library\+\_\+\+Management.\+h}
+\label{_library___management_8h_source}\index{F:/M1\_LibraryManagementSystem/3\_Implementation/inc/Library\_Management.h@{F:/M1\_LibraryManagementSystem/3\_Implementation/inc/Library\_Management.h}}
+\mbox{\hyperlink{_library___management_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_LIBRARY\_MANAGEMENT\_SYSTEM\_H\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_LIBRARY\_MANAGEMENT\_SYSTEM\_H\_\_}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <stdio.h>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <stdlib.h>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <string.h>}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{typedef} \textcolor{keyword}{struct}}
+\DoxyCodeLine{9 \{}
+\DoxyCodeLine{10     \textcolor{keywordtype}{int} \mbox{\hyperlink{structbook_a92ad9f6dc2470b689849c740b4c2fae8}{book\_id}};}
+\DoxyCodeLine{11     \textcolor{keywordtype}{char} book\_name[20];}
+\DoxyCodeLine{12     \textcolor{keywordtype}{char} author\_name[20];}
+\DoxyCodeLine{13 \} \mbox{\hyperlink{structbook}{book}};}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{keyword}{typedef} \textcolor{keyword}{enum}}
+\DoxyCodeLine{16 \{}
+\DoxyCodeLine{17     \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275eda5286889585102a92447f8383a1361e6f}{pass}} = 1,}
+\DoxyCodeLine{18     \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275edaaea362e279f9e16c14e6daddb6a00def}{fail}} = 0}
+\DoxyCodeLine{19 \} \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}};}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{keywordtype}{boolean} \mbox{\hyperlink{_library___management_8h_a8197702d59210e91c878dfefa81de0eb}{searchBookById}}(\textcolor{keywordtype}{int} \textcolor{keywordtype}{id});}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{keywordtype}{boolean} \mbox{\hyperlink{_library___management_8h_a1730311167a9b10bb90371cdf3bc5c35}{insertBook}}(\textcolor{keywordtype}{int} \textcolor{keywordtype}{id}, \textcolor{keywordtype}{char} name[], \textcolor{keywordtype}{char} author[]);}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{keywordtype}{boolean} \mbox{\hyperlink{_library___management_8h_afbd1bfb257b0787afc8434b07e17e196}{deleteBookById}}(\textcolor{keywordtype}{int} \textcolor{keywordtype}{id});}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{keywordtype}{boolean} \mbox{\hyperlink{_library___management_8h_af5d1a3f346c134fa20aa41a86a159ed8}{issueBook}}(\textcolor{keywordtype}{int} \textcolor{keywordtype}{id});}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{keywordtype}{boolean} \mbox{\hyperlink{_library___management_8h_a2cd791347d13fdb78288e28993c13db6}{viewBook}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

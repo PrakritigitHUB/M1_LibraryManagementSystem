@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="md__f___m1__library_management_system_3__implementation__r_e_a_d_m_e" kind="page">
+    <compoundname>md_F__M1_LibraryManagementSystem_3_Implementation_README</compoundname>
+    <title>Implementation</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md__f___m1__library_management_system_3__implementation__r_e_a_d_m_e_1autotoc_md1">
+<title>Folder Structure</title>
+<para><table rows="6" cols="2"><row>
+<entry thead="yes"><para>Folder   </para>
+</entry><entry thead="yes"><para>description    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>inc</computeroutput>   </para>
+</entry><entry thead="no"><para>All header files    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>src</computeroutput>   </para>
+</entry><entry thead="no"><para>Main source code for calculator    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Test</computeroutput>   </para>
+</entry><entry thead="no"><para>All source code and data for testing purposes    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>unity</computeroutput>   </para>
+</entry><entry thead="no"><para>Unity test code files    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>build</computeroutput>   </para>
+</entry><entry thead="no"><para>Build output (Not included in git)   </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="F:/M1_LibraryManagementSystem/3_Implementation/README.md"/>
+  </compounddef>
+</doxygen>

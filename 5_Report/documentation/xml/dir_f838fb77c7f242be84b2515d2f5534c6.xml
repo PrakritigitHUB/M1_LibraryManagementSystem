@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="dir_f838fb77c7f242be84b2515d2f5534c6" kind="dir">
+    <compoundname>F:/M1_LibraryManagementSystem/3_Implementation</compoundname>
+    <innerdir refid="dir_bf190f23bb1c287a70dc1cb881d0eb84">F:/M1_LibraryManagementSystem/3_Implementation/inc</innerdir>
+    <innerdir refid="dir_1cc11411734c696789a05d254c432a31">F:/M1_LibraryManagementSystem/3_Implementation/src</innerdir>
+    <innerdir refid="dir_3c512db045a7ba20cdd302e22774c0d2">F:/M1_LibraryManagementSystem/3_Implementation/unity</innerdir>
+    <innerfile refid="main_8c">main.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="F:/M1_LibraryManagementSystem/3_Implementation/"/>
+  </compounddef>
+</doxygen>

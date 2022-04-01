@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="_library___management_8h" kind="file" language="C++">
+    <compoundname>Library_Management.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includedby refid="main_8c" local="yes">F:/M1_LibraryManagementSystem/3_Implementation/main.c</includedby>
+    <includedby refid="_adding_book_8c" local="no">F:/M1_LibraryManagementSystem/3_Implementation/src/AddingBook.c</includedby>
+    <includedby refid="_deleting_book_8c" local="no">F:/M1_LibraryManagementSystem/3_Implementation/src/DeletingBook.c</includedby>
+    <includedby refid="_issuing_book_8c" local="no">F:/M1_LibraryManagementSystem/3_Implementation/src/IssuingBook.c</includedby>
+    <includedby refid="_searching_book_8c" local="no">F:/M1_LibraryManagementSystem/3_Implementation/src/SearchingBook.c</includedby>
+    <includedby refid="_viewing_book_8c" local="yes">F:/M1_LibraryManagementSystem/3_Implementation/src/ViewingBook.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h</label>
+        <link refid="_library___management_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h</label>
+        <link refid="_library___management_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>F:/M1_LibraryManagementSystem/3_Implementation/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="3">
+        <label>F:/M1_LibraryManagementSystem/3_Implementation/src/AddingBook.c</label>
+        <link refid="_adding_book_8c"/>
+      </node>
+      <node id="4">
+        <label>F:/M1_LibraryManagementSystem/3_Implementation/src/DeletingBook.c</label>
+        <link refid="_deleting_book_8c"/>
+      </node>
+      <node id="5">
+        <label>F:/M1_LibraryManagementSystem/3_Implementation/src/IssuingBook.c</label>
+        <link refid="_issuing_book_8c"/>
+      </node>
+      <node id="6">
+        <label>F:/M1_LibraryManagementSystem/3_Implementation/src/SearchingBook.c</label>
+        <link refid="_searching_book_8c"/>
+      </node>
+      <node id="7">
+        <label>F:/M1_LibraryManagementSystem/3_Implementation/src/ViewingBook.c</label>
+        <link refid="_viewing_book_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structbook" prot="public">book</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275ed" prot="public" static="no" strong="no">
+        <type></type>
+        <name>boolean</name>
+        <enumvalue id="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275eda5286889585102a92447f8383a1361e6f" prot="public">
+          <name>pass</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275edaaea362e279f9e16c14e6daddb6a00def" prot="public">
+          <name>fail</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="15" column="1" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_library___management_8h_1a8197702d59210e91c878dfefa81de0eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275ed" kindref="member">boolean</ref></type>
+        <definition>boolean searchBookById</definition>
+        <argsstring>(int id)</argsstring>
+        <name>searchBookById</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="21" column="9" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/src/SearchingBook.c" bodystart="3" bodyend="32" declfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" declline="21" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_library___management_8h_1a1730311167a9b10bb90371cdf3bc5c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275ed" kindref="member">boolean</ref></type>
+        <definition>boolean insertBook</definition>
+        <argsstring>(int id, char name[], char author[])</argsstring>
+        <name>insertBook</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>name</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>author</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="23" column="9" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/src/AddingBook.c" bodystart="3" bodyend="30" declfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" declline="23" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_library___management_8h_1afbd1bfb257b0787afc8434b07e17e196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275ed" kindref="member">boolean</ref></type>
+        <definition>boolean deleteBookById</definition>
+        <argsstring>(int id)</argsstring>
+        <name>deleteBookById</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="25" column="9" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/src/DeletingBook.c" bodystart="3" bodyend="37" declfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" declline="25" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_library___management_8h_1af5d1a3f346c134fa20aa41a86a159ed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275ed" kindref="member">boolean</ref></type>
+        <definition>boolean issueBook</definition>
+        <argsstring>(int id)</argsstring>
+        <name>issueBook</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="27" column="9" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/src/IssuingBook.c" bodystart="3" bodyend="37" declfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" declline="27" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_library___management_8h_1a2cd791347d13fdb78288e28993c13db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275ed" kindref="member">boolean</ref></type>
+        <definition>boolean viewBook</definition>
+        <argsstring>(void)</argsstring>
+        <name>viewBook</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="29" column="9" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/src/ViewingBook.c" bodystart="3" bodyend="26" declfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" declline="29" declcolumn="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__LIBRARY_MANAGEMENT_SYSTEM_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__LIBRARY_MANAGEMENT_SYSTEM_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="structbook" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="structbook_1a92ad9f6dc2470b689849c740b4c2fae8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structbook_1a92ad9f6dc2470b689849c740b4c2fae8" kindref="member">book_id</ref>;</highlight></codeline>
+<codeline lineno="11" refid="structbook_1a37d8428a804ad9366c922866e128c733" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>book_name[20];</highlight></codeline>
+<codeline lineno="12" refid="structbook_1ac53c13463b4921fb5c73efe45577890b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>author_name[20];</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}<sp/><ref refid="structbook" kindref="compound">book</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275eda5286889585102a92447f8383a1361e6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275eda5286889585102a92447f8383a1361e6f" kindref="member">pass</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275edaaea362e279f9e16c14e6daddb6a00def" kindref="member">fail</ref><sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="19" refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275edaaea362e279f9e16c14e6daddb6a00def" refkind="member"><highlight class="normal">}<sp/><ref refid="_library___management_8h_1a7c6368b321bd9acd0149b030bb8275ed" kindref="member">boolean</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="_library___management_8h_1a8197702d59210e91c878dfefa81de0eb" kindref="member">searchBookById</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="_library___management_8h_1a1730311167a9b10bb90371cdf3bc5c35" kindref="member">insertBook</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>name[],<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>author[]);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="_library___management_8h_1afbd1bfb257b0787afc8434b07e17e196" kindref="member">deleteBookById</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="_library___management_8h_1af5d1a3f346c134fa20aa41a86a159ed8" kindref="member">issueBook</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="_library___management_8h_1a2cd791347d13fdb78288e28993c13db6" kindref="member">viewBook</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structbook" kind="struct" language="C++" prot="public">
+    <compoundname>book</compoundname>
+    <includes refid="_library___management_8h" local="no">Library_Management.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structbook_1a92ad9f6dc2470b689849c740b4c2fae8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int book_id</definition>
+        <argsstring></argsstring>
+        <name>book_id</name>
+        <qualifiedname>book::book_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="10" column="9" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbook_1a37d8428a804ad9366c922866e128c733" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char book_name[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>book_name</name>
+        <qualifiedname>book::book_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="11" column="10" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbook_1ac53c13463b4921fb5c73efe45577890b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char author_name[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>author_name</name>
+        <qualifiedname>book::author_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="12" column="10" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" line="8" column="1" bodyfile="F:/M1_LibraryManagementSystem/3_Implementation/inc/Library_Management.h" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="structbook_1ac53c13463b4921fb5c73efe45577890b" prot="public" virt="non-virtual"><scope>book</scope><name>author_name</name></member>
+      <member refid="structbook_1a92ad9f6dc2470b689849c740b4c2fae8" prot="public" virt="non-virtual"><scope>book</scope><name>book_id</name></member>
+      <member refid="structbook_1a37d8428a804ad9366c922866e128c733" prot="public" virt="non-virtual"><scope>book</scope><name>book_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

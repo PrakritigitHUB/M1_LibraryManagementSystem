@@ -1,0 +1,82 @@
+\hypertarget{_library___management_8h}{}\doxysection{F\+:/\+M1\+\_\+\+Library\+Management\+System/3\+\_\+\+Implementation/inc/\+Library\+\_\+\+Management.h File Reference}
+\label{_library___management_8h}\index{F:/M1\_LibraryManagementSystem/3\_Implementation/inc/Library\_Management.h@{F:/M1\_LibraryManagementSystem/3\_Implementation/inc/Library\_Management.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structbook}{book}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} \{ \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275eda5286889585102a92447f8383a1361e6f}{pass}} = 1
+, \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275edaaea362e279f9e16c14e6daddb6a00def}{fail}} = 0
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} \mbox{\hyperlink{_library___management_8h_a8197702d59210e91c878dfefa81de0eb}{search\+Book\+By\+Id}} (int id)
+\item 
+\mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} \mbox{\hyperlink{_library___management_8h_a1730311167a9b10bb90371cdf3bc5c35}{insert\+Book}} (int id, char name\mbox{[}$\,$\mbox{]}, char author\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} \mbox{\hyperlink{_library___management_8h_afbd1bfb257b0787afc8434b07e17e196}{delete\+Book\+By\+Id}} (int id)
+\item 
+\mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} \mbox{\hyperlink{_library___management_8h_af5d1a3f346c134fa20aa41a86a159ed8}{issue\+Book}} (int id)
+\item 
+\mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} \mbox{\hyperlink{_library___management_8h_a2cd791347d13fdb78288e28993c13db6}{view\+Book}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}\label{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}} 
+\index{Library\_Management.h@{Library\_Management.h}!boolean@{boolean}}
+\index{boolean@{boolean}!Library\_Management.h@{Library\_Management.h}}
+\doxysubsubsection{\texorpdfstring{boolean}{boolean}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{pass@{pass}!Library\_Management.h@{Library\_Management.h}}\index{Library\_Management.h@{Library\_Management.h}!pass@{pass}}}\mbox{\Hypertarget{_library___management_8h_a7c6368b321bd9acd0149b030bb8275eda5286889585102a92447f8383a1361e6f}\label{_library___management_8h_a7c6368b321bd9acd0149b030bb8275eda5286889585102a92447f8383a1361e6f}} 
+pass&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{fail@{fail}!Library\_Management.h@{Library\_Management.h}}\index{Library\_Management.h@{Library\_Management.h}!fail@{fail}}}\mbox{\Hypertarget{_library___management_8h_a7c6368b321bd9acd0149b030bb8275edaaea362e279f9e16c14e6daddb6a00def}\label{_library___management_8h_a7c6368b321bd9acd0149b030bb8275edaaea362e279f9e16c14e6daddb6a00def}} 
+fail&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_library___management_8h_afbd1bfb257b0787afc8434b07e17e196}\label{_library___management_8h_afbd1bfb257b0787afc8434b07e17e196}} 
+\index{Library\_Management.h@{Library\_Management.h}!deleteBookById@{deleteBookById}}
+\index{deleteBookById@{deleteBookById}!Library\_Management.h@{Library\_Management.h}}
+\doxysubsubsection{\texorpdfstring{deleteBookById()}{deleteBookById()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} delete\+Book\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_library___management_8h_a1730311167a9b10bb90371cdf3bc5c35}\label{_library___management_8h_a1730311167a9b10bb90371cdf3bc5c35}} 
+\index{Library\_Management.h@{Library\_Management.h}!insertBook@{insertBook}}
+\index{insertBook@{insertBook}!Library\_Management.h@{Library\_Management.h}}
+\doxysubsubsection{\texorpdfstring{insertBook()}{insertBook()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} insert\+Book (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{char}]{name\mbox{[}$\,$\mbox{]},  }\item[{char}]{author\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_library___management_8h_af5d1a3f346c134fa20aa41a86a159ed8}\label{_library___management_8h_af5d1a3f346c134fa20aa41a86a159ed8}} 
+\index{Library\_Management.h@{Library\_Management.h}!issueBook@{issueBook}}
+\index{issueBook@{issueBook}!Library\_Management.h@{Library\_Management.h}}
+\doxysubsubsection{\texorpdfstring{issueBook()}{issueBook()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} issue\+Book (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_library___management_8h_a8197702d59210e91c878dfefa81de0eb}\label{_library___management_8h_a8197702d59210e91c878dfefa81de0eb}} 
+\index{Library\_Management.h@{Library\_Management.h}!searchBookById@{searchBookById}}
+\index{searchBookById@{searchBookById}!Library\_Management.h@{Library\_Management.h}}
+\doxysubsubsection{\texorpdfstring{searchBookById()}{searchBookById()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} search\+Book\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_library___management_8h_a2cd791347d13fdb78288e28993c13db6}\label{_library___management_8h_a2cd791347d13fdb78288e28993c13db6}} 
+\index{Library\_Management.h@{Library\_Management.h}!viewBook@{viewBook}}
+\index{viewBook@{viewBook}!Library\_Management.h@{Library\_Management.h}}
+\doxysubsubsection{\texorpdfstring{viewBook()}{viewBook()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_library___management_8h_a7c6368b321bd9acd0149b030bb8275ed}{boolean}} view\+Book (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
