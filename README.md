@@ -1,5 +1,15 @@
 # M1_LibraryManagementSystem
 
+## Commands:
+### Running code:
+> `make all`  
+> `./run.exe`
+
+### Unit testing:
+> `make unittest`  
+> `./test.exe`
+
+
 ## Screenshots
 
 ### Add New books
