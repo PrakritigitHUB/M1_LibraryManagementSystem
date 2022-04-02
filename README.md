@@ -48,3 +48,7 @@
 
 ### Unit Testing
 ![img](./6_Images/unittest.png)
+
+
+# Badge
+[![Contribution Check - Git Inspector](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/actions/workflows/gitinspector.yml)
