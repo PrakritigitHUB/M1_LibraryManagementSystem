@@ -48,3 +48,11 @@
 
 ### Unit Testing
 ![img](./6_Images/unittest.png)
+
+
+
+# Badge
+[![Contribution Check - Git Inspector](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/actions/workflows/gitinspector.yml)
+
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2fb3425d1a2a444f95bd253ebe2c6082)](https://www.codacy.com/gh/PrakritigitHUB/M1_LibraryManagementSystem/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=PrakritigitHUB/M1_LibraryManagementSystem&amp;utm_campaign=Badge_Grade)
