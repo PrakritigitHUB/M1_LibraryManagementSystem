@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: make
-      working-directory: ./3_Implementation
+      working-directory: 3_Implementation
       run: make all
     - name: make check
-      working-directory: ./3_Implementation
+      working-directory: 3_Implementation
       run: make check
     - name: make distcheck
-      working-directory: ./3_Implementation
+      working-directory: 3_Implementation
       run: make distcheck
