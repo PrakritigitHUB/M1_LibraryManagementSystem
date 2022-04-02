@@ -68,8 +68,8 @@
 # DESIGN
 
 ## STRUCTURAL IMAGE
-![Case Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/case%20diag%202.png
-![Class Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/class%20diagram.png
+* ![Case Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/case%20diag%202.png
+* ![Class Diagram]https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/2_Design/class%20diagram.png
 
 
 ## BEHAVIORAL IMAGE
