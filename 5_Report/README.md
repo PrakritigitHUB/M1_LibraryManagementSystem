@@ -81,4 +81,29 @@
 # CODE IMPLEMENTATION
 * The code for Library Management System is written using C language, so that it is easy to be understood by the users,i.e. it becomes user-friendly.
 * This code consists of functions,pointers,etc. and also the file handling concept is used here.
-* The entire code is then written in the format of 
+* The entire code is then written in the format of mutiple .c files and .h files.
+* The code is run and implemented and then it is converted to makefile so that it would run on any machine irrespective of the OS.
+* Unit Testing and code quality is also checked.
+* Code analysis and documentation is done.
+
+
+
+# Test Plan and Output
+
+## Screenshots
+
+### Add New books
+![img](./6_Images/addbook.png)
+
+### View books
+![img](./6_Images/viewbooks.png)
+
+### Issue books
+![img](./6_Images/issuebook.png)
+
+### Search books
+![img](./6_Images/searchbook.png)
+
+### Delete books
+![img](./6_Images/deletebook.png)
+
