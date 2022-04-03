@@ -32,22 +32,22 @@
 ## Screenshots
 
 ### Add New books
-![img](./6_Images/addbook.png)
+![img](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/6_Images/addbook.png)
 
 ### View books
-![img](./6_Images/viewbooks.png)
+![img](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/6_Images/viewbooks.png)
 
 ### Issue books
-![img](./6_Images/issuebook.png)
+![img](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/6_Images/issuebook.png)
 
 ### Search books
-![img](./6_Images/searchbook.png)
+![img](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/6_Images/searchbook.png)
 
 ### Delete books
-![img](./6_Images/deletebook.png)
+![img](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/6_Images/deletebook.png)
 
 ### Unit Testing
-![img](./6_Images/unittest.png)
+![img](https://github.com/PrakritigitHUB/M1_LibraryManagementSystem/blob/main/6_Images/unittest.png)
 
 
 # Badge
